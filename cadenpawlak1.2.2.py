@@ -6,7 +6,7 @@ import leaderboard as lb
 
 #-----game configuration----
 turtleshape = "turtle"
-turtlesize = 1
+turtlesize = 10
 turtlecolor = "Purple"
 
 score = 0
@@ -19,7 +19,7 @@ timer_up = False
 #scoreboard variables
 leaderboard_file_name = "a112_leaderboard.txt"
 leader_names_list = []
-Leader_scores_list = []
+leader_scores_list = []
 player_name = input("please enter your name.")
 
 
@@ -45,7 +45,7 @@ keeper.write(score, font=font_setup)
 counter =  trtl.Turtle()
 counter.ht()
 counter.penup()
-counter.goto(300, 270)
+counter.goto(270, 270)
 
 
 #-----game functions--------
